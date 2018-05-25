@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3a9163-ca9b-4849-992b-0fb51261c53a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/NayefPortfolio.github.io.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04-elements.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04-elements/css/responsive.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04-elements/css/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-css/fluidbox.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-css/ionicons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/isotope.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/jquery.fluidbox.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/jquery.waypoints.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/progressbar.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/scripts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-js/tether.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/logos.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-1-600x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-10-300x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-11-300x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-12-600x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-13-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-14-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-15-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-16-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-17-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-18-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-19-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-2-600x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-20-400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-3-600x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-4-600x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-5-600x800.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-6-600x800.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-7-600x800.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-8-300x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/portfolio-9-300x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/profile-1-250x250.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/slider-1-1920x1080.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/slider-2-1920x600.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/slider-3-1920x1080.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/slider-4-1920x600.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/slider-5-1920x600.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,12 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="237" column="42" lean-forward="false" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="353">
+              <caret line="399" column="6" lean-forward="false" selection-start-line="399" selection-start-column="32" selection-end-line="400" selection-end-column="103" />
+              <folding>
+                <element signature="e#2931#2937#0" expanded="true" />
+                <element signature="e#2938#2944#0" expanded="true" />
+                <element signature="e#2955#2961#0" expanded="true" />
+                <element signature="e#2962#2968#0" expanded="true" />
+                <element signature="e#23155#23161#0" expanded="true" />
+                <marker date="1527229524627" expanded="true" signature="5680:7345" ph="..." />
+                <marker date="1527229524627" expanded="true" signature="11030:14558" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,18 +40,18 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="309">
+              <caret line="101" column="10" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+            <state relative-caret-position="1088">
+              <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="12" selection-end-line="159" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -101,31 +61,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>heading-wrapper</find>
-      <find>downlad-btn</find>
-      <find>ke</find>
-      <find>about me</find>
-      <find>work</find>
-      <find>margin-b-30</find>
-      <find>list</find>
-      <find>li</find>
-      <find>li</find>
-      <find>body</find>
-      <find>&lt;a class=&quot;btn btn-bg-purple&quot; href=&quot;#&quot;&gt;Download CV&lt;/a&gt;</find>
-      <find>btn-bg-purple</find>
-      <find>mechatro</find>
-      <find>icon</find>
-      <find>social-icons</find>
-      <find>MARIT</find>
-      <find>button</find>
-      <find>na</find>
       <find>nayef ahmed</find>
       <find>downlo</find>
       <find>experience</find>
-      <find>portfol</find>
-      <find>education</find>
       <find>education-wrapper</find>
       <find>educat</find>
+      <find>web</find>
+      <find>ex</find>
+      <find>micros</find>
+      <find>educatio</find>
+      <find>education</find>
+      <find>font-lite</find>
+      <find>por</find>
+      <find>port</find>
+      <find>iconboxes-section</find>
+      <find>graphic</find>
+      <find>exper</find>
+      <find>qual</find>
+      <find>icon</find>
+      <find>experie</find>
+      <find>margin-tb-20</find>
+      <find>portfol</find>
+      <find>margin-tb</find>
+      <find>res</find>
+      <find>intro</find>
+      <find>intro-section</find>
+      <find>full</find>
+      <find>fulls</find>
+      <find>linke</find>
+      <find>linked</find>
+      <find>social</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,8 +100,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -192,6 +157,17 @@
               <item name="NayefPortfolio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="NayefPortfolio.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NayefPortfolio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NayefPortfolio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="04-elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NayefPortfolio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NayefPortfolio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="04-elements" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527190898514</updated>
-      <workItem from="1527190899890" duration="7407000" />
+      <workItem from="1527190899890" duration="18810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7407000" />
+    <option name="totallyTimeSpent" value="18810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -296,40 +272,85 @@
         <state relative-caret-position="-2394">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/logos.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common-js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="2541">
           <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7473">
+          <caret line="1166" column="1" lean-forward="false" selection-start-line="1166" selection-start-column="1" selection-end-line="1166" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-elements/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="133" column="1" lean-forward="false" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-elements/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="237" column="42" lean-forward="false" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
+        <state relative-caret-position="309">
+          <caret line="101" column="10" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state relative-caret-position="1088">
+          <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="12" selection-end-line="159" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="399" column="6" lean-forward="false" selection-start-line="399" selection-start-column="32" selection-end-line="400" selection-end-column="103" />
+          <folding>
+            <element signature="e#2931#2937#0" expanded="true" />
+            <element signature="e#2938#2944#0" expanded="true" />
+            <element signature="e#2955#2961#0" expanded="true" />
+            <element signature="e#2962#2968#0" expanded="true" />
+            <element signature="e#23155#23161#0" expanded="true" />
+            <marker date="1527229524627" expanded="true" signature="5680:7345" ph="..." />
+            <marker date="1527229524627" expanded="true" signature="11030:14558" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

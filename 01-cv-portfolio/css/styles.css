@@ -12,7 +12,7 @@
 	2. COMMONS FOR PAGE DESIGN
 	3. HEADER
 	4. INTRO SECTION
-	5. PORFOLIO SECTION
+	5. PORTFOLIO SECTION
 	6. ABOUT SECTION
 	7. EXPERIENCE SECTION
 	8. EDUCATION SECTION
@@ -20,6 +20,7 @@
 	10. FOOTER
 
 	11. BTN STYLES
+	12. QUALIFICATIONS
 
 ====================================================
 
@@ -94,6 +95,7 @@ b.max-bold{ font-weight: 700; }
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
 
+.margin-tb-20{ margin-top: 20px; margin-bottom: 20px; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
 .font-yellow{ color: #FFA600; }
@@ -130,7 +132,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section{ padding-top: 200px; position: relative; background-size: cover; 
+.intro-section{ padding-top: 150px; position: relative; background-size: cover;
 	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
@@ -149,16 +151,21 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #28023d; color: #fff; }
 
-.intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: rgba(71, 2, 105, 0.75);
-	-webkit-transition: all .2s ease; transition: all .2s ease;
-	-webkit-transform: scale(0); transform: scale(0); }
+/*.intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;*/
+	/*top: 0; z-index: -1; border-radius: 20px; background: rgba(71, 2, 105, 0.75);*/
+	/*-webkit-transition: all .2s ease; transition: all .2s ease;*/
+	/*-webkit-transform: scale(0); transform: scale(0); }*/
 
-.intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
+.intro .social-icons > li > a:hover{
+    color: #ffab00;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
 
 
 /* ---------------------------------
-5. PORFOLIO SECTION
+5. PORTFOLIO SECTION
 --------------------------------- */
 
 .portfolio-section{ padding-bottom: 0; }
@@ -199,29 +206,33 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 /* ---------------------------------
 7. EXPERIENCE SECTION
 --------------------------------- */
+
+/*.experience-section{ background: #28023D; color: #fff; }*/
+
 .experience-wrapper{ position: relative; }
 
 .experience-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
-	width: 2px; background: #ccc; }
+    width: 2px; background: #ccc; }
 
 .experience-wrapper .experience{ position: relative; }
 
 .experience-wrapper .experience:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px;
-	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgb(255, 171, 0); background: #28023d; }
+    height: 16px; border-radius: 10px; z-index: 1;
+    box-shadow: 0 0 0 8px rgba(255, 171, 0, 0.4); background: #ffab00; }
 
-.experience-section{ background: #28023D; color: #fff; }
-
-.experience .list > li{color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ddd; }
 
 
 	
 /* ---------------------------------
 8. EDUCATION SECTION
 --------------------------------- */
+
+.education-section{ background: #28023D; color: #fff; }
+
 
 .education-wrapper{ position: relative; }
 
@@ -233,7 +244,11 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
 	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
-	
+
+.education .list > li{ color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.education .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #777; }
 	
 /* ---------------------------------
 9. COUNTER SECTION
@@ -271,7 +286,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0;  }
 
 /* ---------------------------------
 11. BTN STYLES
@@ -297,3 +312,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .btn-border-purple:hover{ background: #28023D; color: #fff; }
 
 .btn-color-yellow:hover{ background: none; color: #111; }
+
+/* ---------------------------------
+12. QUALIFICATIONS
+--------------------------------- */
+
+.qualifications-section{ background: #28023D; color: #fff; }
+/*.qualification > p{ color: #ddd; }*/
+.qualification .list > li{color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.qualification .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
+    width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ddd; }
