@@ -15,7 +15,7 @@
 	5. PORTFOLIO SECTION
 	6. ABOUT SECTION
 	7. EXPERIENCE SECTION
-	8. EDUCATION SECTION
+	8. PROJECT SECTION
 	9. COUNTER SECTION
 	10. FOOTER
 
@@ -228,26 +228,26 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 	
 /* ---------------------------------
-8. EDUCATION SECTION
+8. PROJECT SECTION
 --------------------------------- */
 
-.education-section{ background: #28023D; color: #fff; }
+.project-section{ background: #28023D; color: #fff; }
 
 
-.education-wrapper{ position: relative; }
+.project-wrapper{ position: relative; }
 
-.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
+.project-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
 	width: 2px; background: #ccc; }
 
-.education-wrapper .education{ position: relative; }
+.project-wrapper .project{ position: relative; }
 
-.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
+.project-wrapper .project:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px;
 	height: 16px; border-radius: 10px; z-index: 1;
 	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
 
-.education .list > li{ color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+.project .list > li{ color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
-.education .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
+.project .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #777; }
 	
 /* ---------------------------------
@@ -309,7 +309,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .btn-bg-purple:hover{ background: none; color: #111; }
 
-.btn-border-purple:hover{ background: #28023D; color: #fff; }
+.btn-border-purple:hover{ background: #28023D; color: #ffab00; }
 
 .btn-color-yellow:hover{ background: none; color: #111; }
 

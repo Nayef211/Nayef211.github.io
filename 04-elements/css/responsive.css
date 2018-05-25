@@ -77,8 +77,8 @@
 	8. EDUCATION SECTION
 	--------------------------------- */
 	
-	.education-wrapper:after,
-	.education-wrapper .education:after{ display: none; }
+	.project-wrapper:after,
+	.project-wrapper .project:after{ display: none; }
 
 }
 
