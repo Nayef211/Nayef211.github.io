@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3a9163-ca9b-4849-992b-0fb51261c53a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" />
       <change beforePath="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" afterPath="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/04-elements/css/responsive.css" afterPath="$PROJECT_DIR$/04-elements/css/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/common-js/scripts.js" afterPath="$PROJECT_DIR$/common-js/scripts.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,18 +18,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="184" column="49" lean-forward="true" selection-start-line="184" selection-start-column="49" selection-end-line="184" selection-end-column="49" />
               <folding>
-                <element signature="e#1330#1336#0" expanded="true" />
-                <element signature="e#1337#1343#0" expanded="true" />
-                <element signature="e#1354#1360#0" expanded="true" />
-                <element signature="e#1361#1367#0" expanded="true" />
-                <element signature="e#21601#21607#0" expanded="true" />
+                <element signature="e#2349#2355#0" expanded="true" />
+                <element signature="e#2356#2362#0" expanded="true" />
+                <element signature="e#2373#2379#0" expanded="true" />
+                <element signature="e#2380#2386#0" expanded="true" />
+                <element signature="e#22809#22815#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,28 +47,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common-js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="198" column="1" lean-forward="true" selection-start-line="198" selection-start-column="1" selection-end-line="198" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="242" column="0" lean-forward="true" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+            <state relative-caret-position="-1701">
+              <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,36 +58,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>micros</find>
-      <find>educatio</find>
-      <find>education</find>
-      <find>font-lite</find>
-      <find>por</find>
-      <find>port</find>
-      <find>iconboxes-section</find>
-      <find>graphic</find>
-      <find>exper</find>
-      <find>qual</find>
-      <find>icon</find>
-      <find>experie</find>
-      <find>margin-tb-20</find>
-      <find>portfol</find>
-      <find>margin-tb</find>
-      <find>res</find>
-      <find>intro</find>
-      <find>intro-section</find>
       <find>full</find>
       <find>fulls</find>
       <find>linke</find>
       <find>linked</find>
       <find>social</find>
       <find>design</find>
-      <find>nayef</find>
       <find>BTN</find>
       <find>header</find>
       <find>education-section</find>
       <find>EDUCATION</find>
       <find>logo</find>
+      <find>page</find>
+      <find>js-scroll-trigger</find>
+      <find>nayef</find>
+      <find>side</find>
+      <find>fa</find>
+      <find>fa</find>
+      <find>list</find>
+      <find>sidebar-brand</find>
+      <find>sidebar-nav</find>
+      <find>sidebar-nav-item</find>
+      <find>po</find>
+      <find>in</find>
+      <find>easing</find>
+      <find>experie</find>
+      <find>intro</find>
+      <find>micros</find>
+      <find>wa</find>
+      <find>expere</find>
+      <find>qualif</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,9 +97,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/01-cv-portfolio/css/responsive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/common-js/scripts.js" />
         <option value="$PROJECT_DIR$/01-cv-portfolio/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -121,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="349" />
     <option name="y" value="-30" />
     <option name="width" value="1400" />
@@ -223,15 +211,15 @@
       <updated>1527190898514</updated>
       <workItem from="1527190899890" duration="18810000" />
       <workItem from="1527259907157" duration="430000" />
-      <workItem from="1527263454176" duration="2905000" />
+      <workItem from="1527263454176" duration="10427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22145000" />
+    <option name="totallyTimeSpent" value="29667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -269,11 +257,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1330#1336#0" expanded="true" />
-            <element signature="e#1337#1343#0" expanded="true" />
-            <element signature="e#1354#1360#0" expanded="true" />
-            <element signature="e#1361#1367#0" expanded="true" />
-            <element signature="e#21601#21607#0" expanded="true" />
+            <element signature="e#2349#2355#0" expanded="true" />
+            <element signature="e#2356#2362#0" expanded="true" />
+            <element signature="e#2373#2379#0" expanded="true" />
+            <element signature="e#2380#2386#0" expanded="true" />
+            <element signature="e#22809#22815#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -299,11 +287,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1330#1336#0" expanded="true" />
-            <element signature="e#1337#1343#0" expanded="true" />
-            <element signature="e#1354#1360#0" expanded="true" />
-            <element signature="e#1361#1367#0" expanded="true" />
-            <element signature="e#21601#21607#0" expanded="true" />
+            <element signature="e#2349#2355#0" expanded="true" />
+            <element signature="e#2356#2362#0" expanded="true" />
+            <element signature="e#2373#2379#0" expanded="true" />
+            <element signature="e#2380#2386#0" expanded="true" />
+            <element signature="e#22809#22815#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -386,41 +374,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#1330#1336#0" expanded="true" />
-            <element signature="e#1337#1343#0" expanded="true" />
-            <element signature="e#1354#1360#0" expanded="true" />
-            <element signature="e#1361#1367#0" expanded="true" />
-            <element signature="e#21601#21607#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2639">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="198" column="1" lean-forward="true" selection-start-line="198" selection-start-column="1" selection-end-line="198" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="-1701">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-cv-portfolio/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="242" column="0" lean-forward="true" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="184" column="49" lean-forward="true" selection-start-line="184" selection-start-column="49" selection-end-line="184" selection-end-column="49" />
+          <folding>
+            <element signature="e#2349#2355#0" expanded="true" />
+            <element signature="e#2356#2362#0" expanded="true" />
+            <element signature="e#2373#2379#0" expanded="true" />
+            <element signature="e#2380#2386#0" expanded="true" />
+            <element signature="e#22809#22815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

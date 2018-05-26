@@ -28,11 +28,34 @@
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 	
 </head>
-<body>
-	
-	<header>
+<body id="page-top">
 
-	</header>
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger font-yellow" href="#page-top">Nayef Ahmed</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#intro">Intro</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#qualifications">Qualifications</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+        </ul>
+    </nav>
 	
 	<section id="intro" class="intro-section">
 		<div class="container">
@@ -158,8 +181,8 @@
                         <ul class="list">
                             <li>Numerous years of coding experience; proficient in C++, C#, and Java</li>
                             <li>Understanding of the software development lifecycle, design patterns (MVC and MVVM), and agile methodologies</li>
-                            <li>Experienced with the LAMP stack and with several frameworks including Laravel, Vue.js, and Node.js</li>
                             <li>Working knowledge of Git, Bash, SQL, JavaScript, HTML, and XAML</li>
+                            <li>Relevant Courses: Real Time Operating Systems, Digital Logic and Microprocessors, Data Structures and Algorithms</li>
                         </ul>
                     </div><!-- counter -->
                 </div><!-- col-md-4 -->
@@ -303,6 +326,11 @@
 						</div><!-- experience -->
 
 						<div class="experience margin-b-50">
+
+                            <!--<div class="logo">-->
+                                <!--<img src="images/microsoft-logo.png">-->
+                            <!--</div>-->
+
                             <a href="http://watonomous.ca/" target="_blank">
                                 <h4><b>SENSOR FUSION SOFTWARE ENGINEER</b></h4>
                                 <h5 class="font-yellow"><b>WATONOMOUS DESIGN TEAM (SELF-DRIVING CAR)</b></h5>
@@ -431,10 +459,12 @@
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			Copyright &copy; Nayef Ahmed <script>document.write(new Date().getFullYear());</script>
 		</p>
-
-
 	</footer>
-	
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
 	
 	<!-- SCIPTS -->
 	
@@ -451,10 +481,13 @@
 	<script src="common-js/progressbar.min.js"></script>
 	
 	<script src="common-js/jquery.fluidbox.min.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
 
-	<!--W3 Website Traffic Tracker-->
+    <script src="common-js/jquery.easing.min.js"></script>
+
+    <script src="common-js/scripts.js"></script>
+
+
+    <!--W3 Website Traffic Tracker-->
 	<script src="https://www.w3counter.com/tracker.js?id=119048"></script>
 	
 </body>
