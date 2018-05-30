@@ -164,7 +164,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 150px; position: relative; background-size: cover;
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../images/slider-1-1920x1080.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -256,7 +256,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ddd; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ccc; }
 
 
 	
@@ -264,7 +264,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 8. PROJECT SECTION
 --------------------------------- */
 
-.project-section{ background: #28023D; color: #fff; }
+.project-section{ background: #28023D; color: #eee; }
 
 
 .project-wrapper{ position: relative; }
@@ -281,14 +281,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .project .list > li{ color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .project .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #777; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ccc; }
 	
 /* ---------------------------------
 9. COUNTER SECTION
 --------------------------------- */
 
 .counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+	background-image: url(../images/slider-2-1920x600.jpg); color: #fff; }
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
