@@ -163,14 +163,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section{ padding-top: 150px; position: relative; background-size: cover;
-	z-index: 1;background-image: url(../images/slider-1-1920x1080.jpg); }
+.intro-section{ padding-top: 200px; position: relative; background-size: cover;
+	z-index: 1; background-image: url(../images/mountain-1920-1080.jpg); background-position: 0% 175%;}
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 150px; z-index: -1; background: #fff; }
+	height: 150px; z-index: -1; background: #ffffff; }
 
 .intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
 
