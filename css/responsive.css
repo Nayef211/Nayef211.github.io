@@ -1,6 +1,6 @@
 
 
-/* Screens Resolution : 992px
+/* Screens Resolution : 1200px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
 	/* ---------------------------------
@@ -12,6 +12,13 @@
 	.counter{ display: inline-block; }
 	
 	.counter .desc{ text-align: left; }
+
+	/* ---------------------------------
+	4. INTRO SECTION
+	--------------------------------- */
+
+	.toggle-resume{ margin-top: 10px; margin-bottom: 15px;}
+	
 }
 
 /* Screens Resolution : 992px
@@ -22,13 +29,13 @@
 	4. INTRO SECTION
 	--------------------------------- */
 
-	.intro-section{ padding-top: 150px; }
-	
+	/* .intro-section{ padding-top: 125px; } */
+
 }
 
-/* Screens Resolution : 767px
+/* Screens Resolution : 768px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	
 	/* ---------------------------------
 	1. PRIMARY STYLES
@@ -55,8 +62,7 @@
 	4. INTRO SECTION
 	--------------------------------- */
 
-	.intro-section{ padding-top: 150px; }
-
+	.intro-section{ padding-top: 120px; }
 
 	/* ---------------------------------
 	5. PORFOLIO SECTION
@@ -76,7 +82,7 @@
 
 	
 	/* ---------------------------------
-	8. EDUCATION SECTION
+	8. PROJECT SECTION
 	--------------------------------- */
 	
 	.project-wrapper:after,

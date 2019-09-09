@@ -13,14 +13,15 @@
 	3. HEADER
 	4. INTRO SECTION
 	5. PORTFOLIO SECTION
-	6. ABOUT SECTION
+    6. ABOUT SECTION
 	7. EXPERIENCE SECTION
 	8. PROJECT SECTION
 	9. COUNTER SECTION
 	10. FOOTER
 
 	11. BTN STYLES
-	12. QUALIFICATIONS
+    12. QUALIFICATIONS
+    13. EDUCATION
 
 ====================================================
 
@@ -33,7 +34,7 @@
 /**::after {*/
     /*box-sizing: border-box;*/
 /*}*/
-
+    
 html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
@@ -111,6 +112,13 @@ b.max-bold{ font-weight: 700; }
 
 .font-lite-black{ color: #999; }
 
+.fas {
+    color: #28023d;
+}
+
+.fas:hover {
+    color: #FFA600;
+}
 
 .scroll-to-top {
     position: fixed;
@@ -172,7 +180,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 150px; z-index: -1; background: #ffffff; }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 0 20px; margin-top: 30px; margin-bottom: 20px; text-align: center; background: #fff; }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
@@ -193,6 +201,12 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
     -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+.toggle-resume {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
 
 
 /* ---------------------------------
@@ -222,7 +236,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 6. ABOUT SECTION
 --------------------------------- */
 
-.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+/* .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
 	padding-bottom: 25px!important; color: #333!important; }
@@ -230,9 +244,15 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .radial-progress .progressbar-text:after{ content:'%'; }
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
-	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; } */
 
-	
+
+
+.about-section{ background: #28023D; color: #eee; }
+    
+.about-wrapper p {
+    color: #ddd
+}
 
 /* ---------------------------------
 7. EXPERIENCE SECTION
@@ -318,8 +338,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 /* ---------------------------------
 10. FOOTER
 --------------------------------- */
-
-.copyright{ text-align: center; padding: 30px 0;  }
+footer {background: #28023D}
+.copyright{ color: #ddd;text-align: center; padding: 30px 0;  }
 
 /* ---------------------------------
 11. BTN STYLES
@@ -345,17 +365,6 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .btn-border-purple:hover{ background: #28023D; color: #ffab00; }
 
 .btn-color-yellow:hover{ background: none; color: #111; }
-
-/* ---------------------------------
-12. QUALIFICATIONS
---------------------------------- */
-
-.qualifications-section{ background: #28023D; color: #fff; }
-/*.qualification > p{ color: #ddd; }*/
-.qualification .list > li{color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
-
-.qualification .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
-    width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ddd; }
 
 
 /* ---------------------------------
@@ -457,3 +466,37 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .menu-toggle:hover {
     background: #343a40;
 }
+
+/* ---------------------------------
+13. QUALIFICATIONS
+--------------------------------- */
+
+.qualifications-section{ background: #28023D; color: #fff; }
+/*.qualification > p{ color: #ddd; }*/
+.qualification .list > li{color: #ddd; display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.qualification .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
+    width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ddd; }
+
+/* ---------------------------------
+14. EDUCATION
+--------------------------------- */
+
+
+.education-wrapper{ position: relative; }
+
+.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
+	width: 2px; background: #ccc; }
+
+.education-wrapper .education{ position: relative; }
+
+.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px;
+	height: 16px; border-radius: 10px; z-index: 1;
+	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+
+.education .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.education .list > li:before{ content: ''; position: absolute; top: 12px; left: 0; height: 10px;
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #ccc; }
+    
+    

@@ -27,6 +27,9 @@
 	
 	<link href="css/responsive.css" rel="stylesheet">
 
+	<link href="css/hover.css" rel="stylesheet">
+
+
     <!-- Favicon Image -->
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -49,19 +52,21 @@
             </li>
             <li class="sidebar-nav-item">
                 <a class="js-scroll-trigger" href="#intro">Intro</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#qualifications">Qualifications</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#experience">Experience</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#projects">Projects</a>
-            </li>
+			</li>
+			<section class="collapse" id="sidebar-collapsible"> 
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#about">About</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#experience">Experience</a>
+				</li>
+				<li class="sidebar-nav-item">
+					<a class="js-scroll-trigger" href="#projects">Projects</a>
+				</li>
+				<li class="sidebar-nav-item">
+						<a class="js-scroll-trigger" href="#education">Education</a>
+				</li>
+			</section>
         </ul>
     </nav>
 	
@@ -110,10 +115,19 @@
                             </li>
 						</ul>
 						<!-- <div> -->
-							<a class="btn btn-border-purple" href="http://nayefahmed.com/resume.pdf" target="_blank">View Resume</a>
 							<!-- <a class="btn btn-border-purple" href="http://nayefahmed.com/resume.pdf" target="_blank">Download Resume</a> -->
 						<!-- </div> -->
-						
+						<div>
+							<a class="btn btn-border-purple" href="http://nayefahmed.com/resume.pdf" target="_blank">Download Resume</a>
+						</div>
+						<div class="toggle-resume">
+							<a id="view-resume-btn" class="js-scroll-trigger" href="#about" onclick="toggleResume()">
+								<i class="fas fa-2x fa-angle-double-down hvr-hang hvr-icon"></i>
+							</a>
+							<a id="hide-resume-btn" style="display: none" class="js-scroll-trigger" href="#intro" onclick="toggleResume()">
+									<i class="fas fa-2x fa-angle-double-up hvr-bob hvr-icon"></i>
+								</a>
+						</div>
 	
 					</div><!-- intro -->
 				</div><!-- col-sm-8 -->
@@ -121,409 +135,305 @@
 		</div><!-- container -->
 	</section><!-- intro-section -->
 
-	<section id="about" class="about-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>About me</b></h3>
-						<h6 class="font-lite-black"><b>HELLO WORLD</b></h6>
+	<section class="collapse" id="resume-collapsible"> 
+		<section id="about" class="about-section section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="heading">
+							<h3><b>About</b></h3>
+							<h6 class="font-lite-black"><b>HELLO WORLD</b></h6>
+						</div>
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-8">
+						<div class="about-wrapper">
+							<p class="margin-b-50">
+								Hey, I'm Nayef! I am extremely passionate about <strong>software
+								development</strong>, <strong>artificial intelligence</strong>, and <strong>autonomous vehicles</strong>
+								and love to work on projects where these fields intersect. I am also a personable
+								team player with an aptitude for <strong>technology</strong>, an intuition
+								for solving <strong>challenging problems</strong>, and a strong track record in
+								people <strong>leadership</strong>. I am currently looking for a 4 month co-op
+								during Winter and Summer 2020 so feel free to reach out to me if you want me on your team!
+							</p>
+
+						</div>
+					</div><!-- col-sm-8 -->	
+				</div><!-- row -->
+			</div><!-- container -->
+		</section><!-- about-section -->
+
+		<!-- <section id="qualifications" class="qualifications-section section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="heading">
+							<h3><b>Qualifications</b></h3>
+							<h6 class="font-lite-black"><b>SKILLS AND ACHIEVEMENTS</b></h6>
+						</div>
 					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<p class="margin-b-50">Hey, I'm Nayef! I am extremely passionate about <strong>software
-						development</strong>, <strong>artificial intelligence</strong>, and <strong>autonomous vehicles</strong>
-						and love to work on projects where these fields intersect. I am also a personable
-						team player with an aptitude for <strong>technology</strong>, an intuition
-						for solving <strong>challenging problems</strong>, and a strong track record in
-						people <strong>leadership</strong>. I am currently looking for a 4 month co-op
-						during Winter and Summer 2020 so feel free to reach out to me if you want me on your team!</p>
 
-					<!--<div class="row">-->
-						<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-							<!--<div class="radial-prog-area margin-b-30">-->
-								<!--<div class="radial-progress" data-prog-percent=".97">-->
-									<!--<div></div>-->
-									<!--<h6 class="progress-title">HTML5 & CSS3</h6>-->
-								<!--</div>-->
-							<!--</div>&lt;!&ndash; radial-prog-area&ndash;&gt;-->
-						<!--</div>&lt;!&ndash; col-sm-6&ndash;&gt;-->
-
-						<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-							<!--<div class="radial-prog-area margin-b-30">-->
-								<!--<div class="radial-progress" data-prog-percent=".78">-->
-									<!--<div></div>-->
-									<!--<h6 class="progress-title">WEB DESIGN</h6>-->
-								<!--</div>-->
-							<!--</div>&lt;!&ndash; radial-prog-area&ndash;&gt;-->
-						<!--</div>&lt;!&ndash; col-sm-6&ndash;&gt;-->
-
-						<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-							<!--<div class="radial-prog-area margin-b-30">-->
-								<!--<div class="radial-progress" data-prog-percent=".67">-->
-									<!--<div></div>-->
-									<!--<h6 class="progress-title">JAVA</h6>-->
-								<!--</div>-->
-							<!--</div>&lt;!&ndash; radial-prog-area&ndash;&gt;-->
-						<!--</div>&lt;!&ndash; col-sm-6&ndash;&gt;-->
-
-						<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-							<!--<div class="radial-prog-area margin-b-50">-->
-								<!--<div class="radial-progress" data-prog-percent=".97">-->
-									<!--<div></div>-->
-									<!--<h6 class="progress-title">PHP</h6>-->
-								<!--</div>-->
-							<!--</div>&lt;!&ndash; radial-prog-area&ndash;&gt;-->
-						<!--</div>&lt;!&ndash; col-sm-6&ndash;&gt;-->
-
-					<!--</div>&lt;!&ndash; row &ndash;&gt;-->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- about-section -->
-
-    <section id="qualifications" class="qualifications-section section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="heading">
-                        <h3><b>Qualifications</b></h3>
-                        <h6 class="font-lite-black"><b>SKILLS AND ACHIEVEMENTS</b></h6>
-                    </div>
-                </div><!-- col-sm-12 -->
-
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="qualification margin-b-30">
-                        <div class="offset-1 margin-b-30">
-                            <i class="fa fa-code fa-4x"></i>
-                        </div>
-                        <h5 class="margin-tb-20 font-yellow"><b>SOFTWARE</b></h5>
-                        <ul class="list">
-                            <li>Numerous years of coding experience; proficient in C++, C#, and Java</li>
-                            <li>Understanding of the software development lifecycle, design patterns (MVC and MVVM), and agile methodologies</li>
-                            <li>Working knowledge of Git, Bash, SQL, JavaScript, HTML, and XAML</li>
-                            <li>Relevant Courses: Real Time Operating Systems, Data Structures and Algorithms, Digital Computation</li>
-                        </ul>
-                    </div><!-- counter -->
-                </div><!-- col-md-4 -->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="qualification margin-b-30">
-                        <div class="offset-1 margin-b-30">
-                            <i class="fa fa-microchip fa-4x"></i>
-                        </div>
-                        <h5 class="margin-tb-20 font-yellow"><b>HARDWARE</b></h5>
-                        <ul class="list">
-                            <li>Hands on experience with soldering PCBs as well as designing filters and instrumentation amplifiers</li>
-                            <li>Understanding of various protocols including SPI, I2C, UART, and PCIe</li>
-                            <li>Experience with microprocessor system architectures as well as parallel, serial, and analog interfacing</li>
-                            <li>Relevant Courses: Microprocessors Systems and Interfacing, Sensors and Instrumentation, Digital Logic and Microprocessors</li>
-                        </ul>
-                    </div><!-- counter -->
-                </div><!-- col-md-4 -->
-
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="qualification margin-b-30">
-                        <div class="offset-1 margin-b-30">
-                            <i class="fa fa-handshake fa-4x"></i>
-                        </div>
-                        <h5 class="margin-tb-20 font-yellow"><b>ACCOMPLISHMENTS</b></h5>
-                        <ul class="list">
-                            <li>Google's Best Android Things prize at PennApps 2017</li>
-                            <li>3rd place at IEEE Hardware Hackathon</li>
-                            <li>Presidents Scholarship of Distinction (valued at $5,000)</li>
-                            <li>Chancellor's Scholarship (valued at $36,000)</li>
-                            <li>TDSB Top Scholar - Ranked top 5 (average 99.3%) out of over 21,000 students
-                                in the Toronto District School Board
-                            </li>
-                        </ul>
-                    </div><!-- counter -->
-                </div><!-- col-md-4 -->
-
-            </div><!-- row -->
-        </div><!-- container -->
-    </section><!-- qualifications-section -->
-
-	<!--<section id="portfolio" class="portfolio-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Portfolio</b></h3>
-						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="qualification margin-b-30">
+							<div class="offset-1 margin-b-30">
+								<i class="fa fa-code fa-4x"></i>
+							</div>
+							<h5 class="margin-tb-20 font-yellow"><b>SOFTWARE</b></h5>
+							<ul class="list">
+								<li>Numerous years of coding experience; proficient in Python, C++, C#, and Java</li>
+								<li>Understanding of the software development lifecycle, design patterns (MVC and MVVM), and agile methodologies</li>
+								<li>Working knowledge of Git, Bash, SQL, JavaScript, HTML, and XAML</li>
+								<li>Relevant Courses: Real Time O	perating Systems, Data Structures and Algorithms, Digital Computation</li>
+							</ul>
+						</div>
 					</div>
-				</div>&lt;!&ndash; col-sm-4 &ndash;&gt;
-				<div class="col-sm-8">
-					<div class="portfolioFilter clearfix margin-b-80">
-						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
-						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
-						<a href="#" data-filter=".branding"><b>BRANDING</b></a>
-						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a>
-					</div>&lt;!&ndash; portfolioFilter &ndash;&gt;
-				</div>&lt;!&ndash; col-sm-8 &ndash;&gt;
-			</div>&lt;!&ndash; row &ndash;&gt;
-		</div>&lt;!&ndash; container &ndash;&gt;
 
-		<div class="portfolioContainer">
-
-			<div class="p-item web-design">
-				<a href="images/portfolio-1-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-1-600x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item branding graphic-design">
-				<a href="images/portfolio-7-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-7-600x800.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item web-design">
-				<a href="images/portfolio-2-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-2-600x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-8-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-9-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item branding graphic-design">
-				<a href="images/portfolio-3-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-3-600x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item graphic-design web-design">
-				<a href="images/portfolio-4-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-4-600x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item  graphic-design branding">
-				<a href="images/portfolio-5-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item web-design branding">
-				<a href="images/portfolio-6-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-10-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-11-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-11-300x400.jpg" alt=""></a>
-			</div>&lt;!&ndash; p-item &ndash;&gt;
-
-		</div>&lt;!&ndash; portfolioContainer &ndash;&gt;
-
-	</section>&lt;!&ndash; portfolio-section &ndash;&gt;-->
-	
-	<section id="experience" class="experience-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Experience</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS WORK</b></h6>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="qualification margin-b-30">
+							<div class="offset-1 margin-b-30">
+								<i class="fa fa-microchip fa-4x"></i>
+							</div>
+							<h5 class="margin-tb-20 font-yellow"><b>HARDWARE</b></h5>
+							<ul class="list">
+								<li>Hands on experience with soldering PCBs as well as designing filters and instrumentation amplifiers</li>
+								<li>Understanding of various protocols including SPI, I2C, UART, and PCIe</li>
+								<li>Experience with microprocessor system architectures as well as parallel, serial, and analog interfacing</li>
+								<li>Relevant Courses: Microprocessors Systems and Interfacing, Sensors and Instrumentation, Digital Logic and Microprocessors</li>
+							</ul>
+						</div>
 					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="experience-wrapper">
 
-						<div class="experience margin-b-50">
-							<a href="https://research.fb.com/category/computer-vision/" target="_blank">
-								<h4><b>SOFTWARE ENGINEER INTERN</b></h4>
-								<h5 class="font-yellow"><b>FACEBOOK AI RESEARCH</b></h5>
-							</a>
-							<h6 class="margin-t-10">C++, Python, OpenCV, PyTorch &nbsp;|&nbsp; Menlo Park, CA &nbsp;|&nbsp;  May 2019 - Aug 2019</h6>
-							<ul class="list margin-tb-30">
-								<li>Worked within the Applied Research Computer Vision team to create a face detection and tracking pipeline running on all Facebook videos in real-time</li>
-								<li>Benchmarked precision and recall of various detection models (Mask R-CNN, DFSD, Viola-Jones) and tracking algorithms on a 600k SOA video dataset</li>
-								<li>Closely collaborated with leading researchers (Ross Girschick and Yufei Wang) to anonymize faces in the video dataset using detection and tracking results</li>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="qualification margin-b-30">
+							<div class="offset-1 margin-b-30">
+								<i class="fa fa-handshake fa-4x"></i>
+							</div>
+							<h5 class="margin-tb-20 font-yellow"><b>ACCOMPLISHMENTS</b></h5>
+							<ul class="list">
+								<li>Google's Best Android Things prize at PennApps 2017</li>
+								<li>3rd place at IEEE Hardware Hackathon</li>
+								<li>Presidents Scholarship of Distinction (valued at $5,000)</li>
+								<li>Chancellor's Scholarship (valued at $36,000)</li>
+								<li>TDSB Top Scholar - Ranked top 5 (average 99.3%) out of over 21,000 students
+									in the Toronto District School Board
+								</li>
 							</ul>
-						</div><!-- experience -->
-
-						<div class="experience margin-b-50">
-                            <a href="https://visualstudio.microsoft.com/team-services/" target="_blank">
-                                <h4><b>SOFTWARE ENGINEER INTERN</b></h4>
-                                <h5 class="font-yellow"><b>MICROSOFT CORPORATION</b></h5>
-                            </a>
-							<h6 class="margin-t-10">C#, Redis, Azure &nbsp;|&nbsp; Redmond, WA &nbsp;|&nbsp;  Aug - Dec 2018</h6>
-							<ul class="list margin-tb-30">
-								<li>Worked within Azure DevOps team to create an Ownership Enforcer (OE) service that enforces PR code reviews for compliance and security assurance</li>
-								<li>Improved performance of OE service by designing multi-layered Redis Cache pipelines from the ground up thus reducing VSTS API calls by 70%</li>
-								<li>Redesigned existing cache systems to optimize lookup time by ensuring scalability across multiple shards to support future expansion of OE service</li>
-							</ul>
-						</div><!-- experience -->
-
-						<div class="experience margin-b-50">
-                            <!--<div class="logo">-->
-                                <!--<img src="images/microsoft-logo.png">-->
-                            <!--</div>-->
-
-                            <a href="http://watonomous.ca/" target="_blank">
-                                <h4><b>PATH PLANNING ENGINEER</b></h4>
-                                <h5 class="font-yellow"><b>WATONOMOUS DESIGN TEAM (SELF-DRIVING CAR)</b></h5>
-                            </a>
-							<h6 class="margin-t-10">OpenCV, ROS, Rviz, LiDAR, Radar &nbsp;|&nbsp; Waterloo, ON &nbsp;|&nbsp; Sep 2017 - Aug 2018</h6>
-							<ul class="list margin-tb-30">
-								<li>Worked within Sensor Fusion subteam to transform a Chevrolet Bolt EV into a level 4 autonomous vehicle for the SAE AutoDrive Challenge</li>
-								<li>Implemented path visualization algorithms using ROS and Rviz to display the path of the car generated using a trajectory rollout approach</li>								
-								<li>Implemented sensor fusion algorithms to combine raw camera and Lidar data to obtain better representation of car’s surroundings</li>
-							</ul>
-						</div><!-- experience -->
-
-						<div class="experience margin-b-50">
-                            <a href="https://www.microsoft.com/en-us/mixed-reality" target="_blank">
-                                <h4><b>SOFTWARE ENGINEER INTERN</b></h4>
-                                <h5 class="font-yellow"><b>MICROSOFT CORPORATION</b></h5>
-                            </a>
-							<h6 class="margin-t-10">C#, C++, C++/CX, XAML, Unity, HoloLens &nbsp;|&nbsp; Vancouver, BC &nbsp;|&nbsp; Jan - Apr 2018</h6>
-							<ul class="list margin-tb-30">
-								<li>Worked on Mixed Reality Viewer team to create a default Windows and HoloLens app for viewing 3D content with over 3 million monthly users</li>
-								<li>Integrated 3D asset conversion and optimization pipeline to support all 3D file formats and ensured it adhered to the MVVM design pattern</li>
-								<li>Collaborated with UI/UX designers and data analysts to implement a content promotion system that promotes key app features to new users</li>
-							</ul>
-						</div><!-- experience -->
-
-						<div class="experience margin-b-50">
-                            <a href="https://www.unicell.com/" target="_blank">
-                                <h4><b>FULL-STACK DEVELOPER</b></h4>
-                                <h5 class="font-yellow"><b>UNICELL BODY COMPANY</b></h5>
-                            </a>
-							<h6 class="margin-t-10">Java, MySQL, Laravel, Vue.js, React Native &nbsp;|&nbsp; Toronto, ON &nbsp;|&nbsp; May - Aug 2016</h6>
-							<ul class="list margin-tb-30">
-								<li>Expanded company’s business-facing website using LAMP stack, Laravel, and Vue.js used by over 1000 employees</li>
-								<li>Automated core data processing using Selenium and Java, resulting in 60% increased efficiency in chassis inventory management</li>
-								<li>Iterated on internal quoting tools using Chart.js to improve ease of use and allow for better visualization of company performance</li>
-							</ul>
-						</div><!-- experience -->
-
+						</div>
 					</div>
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
+
+				</div>
+			</div>
+		</section> -->
 		
-	</section><!-- experience-section -->
-	
-	<section id="projects" class="project-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Projects</b></h3>
-						<h6 class="font-lite-black"><b>PERSONAL ENDEAVORS</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="project-wrapper">
-						
-						<div class="project margin-b-50">
-                            <a href="https://github.com/Nayef211/FlappyGoose" target="_blank">
-                                <h4><b>FLAPPY GOOSE</b></h4>
-                                <h5 class="font-yellow"><b>RTOS Game in an Embedded Environment</b></h5>
-                            </a>
-							<h6 class="margin-t-10">C, Keil RTX RTOS, LPC1768 Microcontroller &nbsp;|&nbsp; Jun - Jul 2018</h6>
-                            <ul class="list margin-tb-30">
-                                <li>Recreated the Flappy Bird game using Keil MCB1700 board in a real-time OS</li>
-                                <li>Used task synchronization and interrupts to update LCD graphics, player score, game physics, and handle peripheral I/O simultaneously</li>
-                            </ul>
-						</div><!-- project -->
+		<section id="experience" class="experience-section section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="heading">
+							<h3><b>Experience</b></h3>
+							<h6 class="font-lite-black"><b>PREVIOUS WORK</b></h6>
+						</div>
+					</div><!-- col-sm-4 -->
+					<div class="col-sm-8">
+						<div class="experience-wrapper">
 
-						<div class="project margin-b-50">
-                            <a href="https://devpost.com/software/study-space" target="_blank">
-                                <h4><b>STUDY SPACE</b></h4>
-                                <h5 class="font-yellow"><b>PENNAPPS (GOOGLE PRIZE WINNER)</b></h5>
-                            </a>
-							<h6 class="margin-t-10">Android Things, Java, Firebase, NXP Microcontroller &nbsp;|&nbsp; Sep 2017</h6>
-                            <ul class="list margin-tb-30">
-                                <li>Created IoT device along with companion app to display the number of people in specific locations on campus</li>
-                                <li>Determined the occupancy of areas using ‘Android Nearby’ to discover number of wireless devices within range</li>
-                            </ul>
-						</div><!-- project -->
-						
-						<div class="project margin-b-50">
-                            <a href="https://www.youtube.com/watch?v=cB54IVEBsJM&feature=youtu.be" target="_blank">
-                                <h4><b>SMART GLOVE</b></h4>
-                                <h5 class="font-yellow"><b>IEEE HARDWARE HACKATHON &nbsp;|&nbsp; 3RD PLACE WINNER</b></h5>
-                            </a>
-							<h6 class="margin-t-10">Arduino, C, Gyro/Accselerometer | Feb 2017</h6>
-                            <ul class="list margin-tb-30">
-                                <li>Designed glove to wirelessly control IoT devices using simple gestures</li>
-                                <li>Implemented gesture recognition by combining data from capacitive force sensors and 3-axis gyroscope/accelerometers</li>
-                                <li>Controlled devices such as lights and speakers by sending commands through TCP local WiFi socket using two Arduino Nanos</li>
-                            </ul>
-                        </div><!-- project -->
+							<div class="experience margin-b-50">
+								<a href="https://research.fb.com/category/computer-vision/" target="_blank">
+									<h4><b>SOFTWARE ENGINEER INTERN</b></h4>
+									<h5 class="font-yellow"><b>FACEBOOK AI RESEARCH</b></h5>
+								</a>
+								<h6 class="margin-t-10">C++, Python, OpenCV, PyTorch &nbsp;|&nbsp; Menlo Park, CA &nbsp;|&nbsp;  May 2019 - Aug 2019</h6>
+								<ul class="list margin-tb-30">
+									<li>Worked within the Applied Research Computer Vision team to create a face detection and tracking pipeline running on all Facebook videos in real-time</li>
+									<li>Benchmarked precision and recall of various detection models (Mask R-CNN, DFSD, Viola-Jones) and tracking algorithms on a 600k SOA video dataset</li>
+									<li>Closely collaborated with leading researchers (Ross Girschick and Yufei Wang) to anonymize faces in the video dataset using detection and tracking results</li>
+								</ul>
+							</div><!-- experience -->
 
-                        <div class="project margin-b-50">
-                            <h4><b>DOG WHEELCHAIR LIFT</b></h4>
-                            <h5 class="font-yellow"><b>ROBOTICS PROJECT</b></h5>
-                            <h6 class="margin-t-10">C++, RobotC, AutoCAD &nbsp;|&nbsp; Oct - Dec 2016</h6>
-                            <ul class="list margin-tb-30">
-                                <li>Constructed wheelchair lift to allow handicapped dogs to scale obstacles with heights up to 20cm</li>
-                                <li>Implemented automatic deployment/stoppage of lift sequences by detecting obstacles using gyroscope and ultrasonic sensors</li>
-                            </ul>
-                        </div><!-- project -->
+							<div class="experience margin-b-50">
+								<a href="https://visualstudio.microsoft.com/team-services/" target="_blank">
+									<h4><b>SOFTWARE ENGINEER INTERN</b></h4>
+									<h5 class="font-yellow"><b>MICROSOFT CORPORATION</b></h5>
+								</a>
+								<h6 class="margin-t-10">C#, Redis, Azure &nbsp;|&nbsp; Redmond, WA &nbsp;|&nbsp;  Aug - Dec 2018</h6>
+								<ul class="list margin-tb-30">
+									<li>Worked within Azure DevOps team to create an Ownership Enforcer (OE) service that enforces PR code reviews for compliance and security assurance</li>
+									<li>Improved performance of OE service by designing multi-layered Redis Cache pipelines from the ground up thus reducing VSTS API calls by 70%</li>
+									<li>Redesigned existing cache systems to optimize lookup time by ensuring scalability across multiple shards to support future expansion of OE service</li>
+								</ul>
+							</div><!-- experience -->
 
-					</div><!-- project-wrapper -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
+							<div class="experience margin-b-50">
+								<!--<div class="logo">-->
+									<!--<img src="images/microsoft-logo.png">-->
+								<!--</div>-->
+
+								<a href="http://watonomous.ca/" target="_blank">
+									<h4><b>PATH PLANNING ENGINEER</b></h4>
+									<h5 class="font-yellow"><b>WATONOMOUS DESIGN TEAM (SELF-DRIVING CAR)</b></h5>
+								</a>
+								<h6 class="margin-t-10">OpenCV, ROS, Rviz, LiDAR, Radar &nbsp;|&nbsp; Waterloo, ON &nbsp;|&nbsp; Sep 2017 - Aug 2018</h6>
+								<ul class="list margin-tb-30">
+									<li>Worked within Sensor Fusion subteam to transform a Chevrolet Bolt EV into a level 4 autonomous vehicle for the SAE AutoDrive Challenge</li>
+									<li>Implemented path visualization algorithms using ROS and Rviz to display the path of the car generated using a trajectory rollout approach</li>								
+									<li>Implemented sensor fusion algorithms to combine raw camera and Lidar data to obtain better representation of car’s surroundings</li>
+								</ul>
+							</div><!-- experience -->
+
+							<div class="experience margin-b-50">
+								<a href="https://www.microsoft.com/en-us/mixed-reality" target="_blank">
+									<h4><b>SOFTWARE ENGINEER INTERN</b></h4>
+									<h5 class="font-yellow"><b>MICROSOFT CORPORATION</b></h5>
+								</a>
+								<h6 class="margin-t-10">C#, C++, C++/CX, XAML, Unity, HoloLens &nbsp;|&nbsp; Vancouver, BC &nbsp;|&nbsp; Jan - Apr 2018</h6>
+								<ul class="list margin-tb-30">
+									<li>Worked on Mixed Reality Viewer team to create a default Windows and HoloLens app for viewing 3D content with over 3 million monthly users</li>
+									<li>Integrated 3D asset conversion and optimization pipeline to support all 3D file formats and ensured it adhered to the MVVM design pattern</li>
+									<li>Collaborated with UI/UX designers and data analysts to implement a content promotion system that promotes key app features to new users</li>
+								</ul>
+							</div><!-- experience -->
+
+							<div class="experience margin-b-50">
+								<a href="https://www.unicell.com/" target="_blank">
+									<h4><b>FULL-STACK DEVELOPER</b></h4>
+									<h5 class="font-yellow"><b>UNICELL BODY COMPANY</b></h5>
+								</a>
+								<h6 class="margin-t-10">Java, MySQL, Laravel, Vue.js, React Native &nbsp;|&nbsp; Toronto, ON &nbsp;|&nbsp; May - Aug 2016</h6>
+								<ul class="list margin-tb-30">
+									<li>Expanded company’s business-facing website using LAMP stack, Laravel, and Vue.js used by over 1000 employees</li>
+									<li>Automated core data processing using Selenium and Java, resulting in 60% increased efficiency in chassis inventory management</li>
+									<li>Iterated on internal quoting tools using Chart.js to improve ease of use and allow for better visualization of company performance</li>
+								</ul>
+							</div><!-- experience -->
+
+						</div>
+					</div><!-- col-sm-8 -->
+				</div><!-- row -->
+			</div><!-- container -->
+			
+		</section><!-- experience-section -->
 		
-	</section><!-- project-section -->
+		<section id="projects" class="project-section section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="heading">
+							<h3><b>Projects</b></h3>
+							<h6 class="font-lite-black"><b>PERSONAL ENDEAVORS</b></h6>
+						</div>
+					</div><!-- col-sm-4 -->
+					<div class="col-sm-8">
+						<div class="project-wrapper">
+							
+							<div class="project margin-b-50">
+								<a href="https://github.com/Nayef211/FlappyGoose" target="_blank">
+									<h4><b>FLAPPY GOOSE</b></h4>
+									<h5 class="font-yellow"><b>RTOS GAME IN AN EMBEDDED ENVIRONMENT</b></h5>
+								</a>
+								<h6 class="margin-t-10">C, Keil RTX RTOS, LPC1768 Microcontroller &nbsp;|&nbsp; Jun - Jul 2018</h6>
+								<ul class="list margin-tb-30">
+									<li>Recreated the Flappy Bird game using Keil MCB1700 board in a real-time OS</li>
+									<li>Used task synchronization and interrupts to update LCD graphics, player score, game physics, and handle peripheral I/O simultaneously</li>
+								</ul>
+							</div><!-- project -->
 
+							<div class="project margin-b-50">
+								<a href="https://devpost.com/software/study-space" target="_blank">
+									<h4><b>STUDY SPACE</b></h4>
+									<h5 class="font-yellow"><b>PENNAPPS (GOOGLE PRIZE WINNER)</b></h5>
+								</a>
+								<h6 class="margin-t-10">Android Things, Java, Firebase, NXP Microcontroller &nbsp;|&nbsp; Sep 2017</h6>
+								<ul class="list margin-tb-30">
+									<li>Created IoT device along with companion app to display the number of people in specific locations on campus</li>
+									<li>Determined the occupancy of areas using ‘Android Nearby’ to discover number of wireless devices within range</li>
+								</ul>
+							</div><!-- project -->
+							
+							<div class="project margin-b-50">
+								<a href="https://www.youtube.com/watch?v=cB54IVEBsJM&feature=youtu.be" target="_blank">
+									<h4><b>SMART GLOVE</b></h4>
+									<h5 class="font-yellow"><b>IEEE HARDWARE HACKATHON &nbsp;|&nbsp; 3RD PLACE WINNER</b></h5>
+								</a>
+								<h6 class="margin-t-10">Arduino, C, Gyro/Accselerometer | Feb 2017</h6>
+								<ul class="list margin-tb-30">
+									<li>Designed glove to wirelessly control IoT devices using simple gestures</li>
+									<li>Implemented gesture recognition by combining data from capacitive force sensors and 3-axis gyroscope/accelerometers</li>
+									<li>Controlled devices such as lights and speakers by sending commands through TCP local WiFi socket using two Arduino Nanos</li>
+								</ul>
+							</div><!-- project -->
+
+							<div class="project margin-b-50">
+								<h4><b>DOG WHEELCHAIR LIFT</b></h4>
+								<h5 class="font-yellow"><b>ROBOTICS PROJECT</b></h5>
+								<h6 class="margin-t-10">C++, RobotC, AutoCAD &nbsp;|&nbsp; Oct - Dec 2016</h6>
+								<ul class="list margin-tb-30">
+									<li>Constructed wheelchair lift to allow handicapped dogs to scale obstacles with heights up to 20cm</li>
+									<li>Implemented automatic deployment/stoppage of lift sequences by detecting obstacles using gyroscope and ultrasonic sensors</li>
+								</ul>
+							</div><!-- project -->
+
+						</div><!-- project-wrapper -->
+					</div><!-- col-sm-8 -->
+				</div><!-- row -->
+			</div><!-- container -->
+			
+		</section><!-- project-section -->
+
+		<section id="education" class="education-section section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="heading">
+								<h3><b>Education</b></h3>
+								<h6 class="font-lite-black"><b>FORMAL SCHOOLING</b></h6>
+							</div>
+						</div>
 	
-	<!--<section class="counter-section" id="counter">-->
-		<!--<div class="container">-->
-			<!--<div class="row">-->
-			<!---->
-				<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-					<!--<div class="counter margin-b-30">-->
-						<!--<h1 class="title"><b><span class="counter-value" data-duration="400" data-count="3">0</span></b></h1>-->
-						<!--<h5 class="desc"><b>Coder Degrees</b></h5>-->
-					<!--</div>&lt;!&ndash; counter &ndash;&gt;-->
-				<!--</div>&lt;!&ndash; col-md-3&ndash;&gt;-->
-				<!---->
-				<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-					<!--<div class="counter margin-b-30">-->
-						<!--<h1 class="title"><b><span class="counter-value" data-duration="1400" data-count="25">0</span></b></h1>-->
-						<!--<h5 class="desc"><b>Project Completed</b></h5>-->
-					<!--</div>&lt;!&ndash; counter &ndash;&gt;-->
-				<!--</div>&lt;!&ndash; col-md-3&ndash;&gt;-->
-				<!---->
-				<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-					<!--<div class="counter margin-b-30">-->
-						<!--<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="311">0</span></b></h1>-->
-						<!--<h5 class="desc"><b>Satisfied Clients</b></h5>-->
-					<!--</div>&lt;!&ndash; counter &ndash;&gt;-->
-				<!--</div>&lt;!&ndash; col-md-3&ndash;&gt;-->
-				<!---->
-				<!--<div class="col-sm-6 col-md-6 col-lg-3">-->
-					<!--<div class="counter margin-b-30">-->
-						<!--<h1 class="title"><b><span class="counter-value" data-duration="2000" data-count="732">0</span></b></h1>-->
-						<!--<h5 class="desc"><b>Finished Projects</b></h5>-->
-					<!--</div>&lt;!&ndash; margin-b-30 &ndash;&gt;-->
-				<!--</div>&lt;!&ndash; col-md-3&ndash;&gt;-->
-				<!---->
-			<!--</div>&lt;!&ndash; row&ndash;&gt;-->
-		<!--</div>&lt;!&ndash; container&ndash;&gt;-->
-    <!--</section>&lt;!&ndash; counter-section&ndash;&gt;-->
-	
-	<footer>
-		<p class="copyright">
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			Copyright &copy; Nayef Ahmed <script>document.write(new Date().getFullYear());</script>
-		</p>
-	</footer>
+						<div class="col-sm-8">
+								<div class="education-wrapper">
+									
+									<div class="education margin-b-50">
+										<a href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering" target="_blank">
+											<h4><b>UNIVERSITY OF WATERLOO</b></h4>
+											<h5 class="font-yellow"><b>BASC IN HONOURS MECHATRONICS ENGINEERING CO-OP,&nbsp; OPTION IN ARTIFICIAL INTELLIGENCE</b></h5>
+										</a>
+										<h6 class="margin-t-10">Waterloo, ON &nbsp;|&nbsp; 2016 - 2021</h6>
+									</div><!-- education -->
+		
+									<div class="education margin-b-50">
+										<a href="https://www.uc3m.es/home" target="_blank">
+											<h4><b>CHARLES III UNIVERSITY OF MADRID</b></h4>
+											<h5 class="font-yellow"><b>STUDY ABROAD SEMESTER</b></h5>
+										</a>
+										<h6 class="margin-t-10">Madrid, SPAIN &nbsp;|&nbsp; Sep - Dec 2019</h6>
+									</div><!-- education -->
+									
+		
+								</div><!-- education-wrapper -->
+							</div><!-- col-sm-8 -->
+					</div>
+				</div>
+			</section>
+
+		<footer>
+			<p class="copyright">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy; Nayef Ahmed <script>document.write(new Date().getFullYear());</script>
+			</p>
+		</footer>
+	</section><!-- resume-collapsible -->
+		
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
         <i class="fa fa-angle-up"></i>
     </a>
 	
-	<!-- SCIPTS -->
+	<!-- SCRIPTS -->
 	
+	<script src="common-js/custom.js"></script>
+
 	<script src="common-js/jquery-3.2.1.min.js"></script>
 	
 	<script src="common-js/tether.min.js"></script>
