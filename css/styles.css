@@ -339,7 +339,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 footer {background: #28023D}
-.copyright{ color: #ddd;text-align: center; padding: 30px 0;  }
+.copyright{ color: #ddd; text-align: center; padding: 30px 0;  }
 
 /* ---------------------------------
 11. BTN STYLES
