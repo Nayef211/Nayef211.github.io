@@ -1,6 +1,6 @@
-function toggleResume() {
-    var viewBtn = document.getElementById("view-resume-btn");
-    var hideBtn = document.getElementById("hide-resume-btn");
+function togglePortfolio() {
+    var viewBtn = document.getElementById("view-portfolio-btn");
+    var hideBtn = document.getElementById("hide-portfolio-btn");
 
     // hide the resume now
     if (!viewBtn.style.display.includes("none")) {
@@ -8,7 +8,7 @@ function toggleResume() {
         // btn.outerHTML = '<a id="view-resume-btn" class="btn btn-border-purple js-scroll-trigger" href="#intro" onclick="toggleResume()"> Hide Resume &nbsp;<i class="fas fa-angle-double-up"></i></a>';
 
         $('#sidebar-collapsible').collapse('show');
-        $('#resume-collapsible').collapse('show');
+        $('#portfolio-collapsible').collapse('show');
 
         viewBtn.style.display = "none";				
         hideBtn.style.display = "inline-block";
@@ -23,6 +23,6 @@ function toggleResume() {
         viewBtn.style.display = "inline-block";				
         
         $('#sidebar-collapsible').collapse('hide');
-        $('#resume-collapsible').collapse('hide');
+        $('#portfolio-collapsible').collapse('hide');
     }
 }
